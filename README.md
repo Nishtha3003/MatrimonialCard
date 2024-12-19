@@ -33,11 +33,6 @@ Clone this repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/MatrimonialCard.git
-Open the project in Xcode:
-
-bash
-Copy code
 open MatrimonialCard.xcodeproj
 Install dependencies (if any) and build the app using Xcode.
 
@@ -60,13 +55,3 @@ UserDTO and UserEntity models define the structure of user data.
 UserRepository handles both network and Core Data logic for fetching and saving user profiles.
 UserViewModel interacts with the repository to fetch and modify the list of profiles.
 ProfileView is the main UI component displaying each profile and managing user interactions (accept, reject, view more info).
-Contributing
-Feel free to fork the repository and submit pull requests. Make sure to follow the coding conventions and write tests for any new features or changes.
-
-Fork the repository.
-Create a new branch (git checkout -b feature/your-feature).
-Commit your changes (git commit -am 'Add your feature').
-Push to the branch (git push origin feature/your-feature).
-Create a new Pull Request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
