@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		466030F72D135CE200F21DDA /* MatrimonialAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466030F62D135CE200F21DDA /* MatrimonialAppApp.swift */; };
+		466030F92D135CE200F21DDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466030F82D135CE200F21DDA /* ContentView.swift */; };
+		466030FB2D135CE400F21DDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466030FA2D135CE400F21DDA /* Assets.xcassets */; };
+		466030FE2D135CE400F21DDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466030FD2D135CE400F21DDA /* Preview Assets.xcassets */; };
+		466031082D135CE400F21DDA /* MatrimonialAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466031072D135CE400F21DDA /* MatrimonialAppTests.swift */; };
+		466031122D135CE400F21DDA /* MatrimonialAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466031112D135CE400F21DDA /* MatrimonialAppUITests.swift */; };
+		466031142D135CE400F21DDA /* MatrimonialAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466031132D135CE400F21DDA /* MatrimonialAppUITestsLaunchTests.swift */; };
+		466031262D135F1800F21DDA /* WebClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466031252D135F1800F21DDA /* WebClient.swift */; };
+		466031282D1360BB00F21DDA /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466031272D1360BB00F21DDA /* UserModel.swift */; };
+		4660312A2D1361E300F21DDA /* UserModelCTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466031292D1361E300F21DDA /* UserModelCTO.swift */; };
+		4660312C2D13624800F21DDA /* userService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4660312B2D13624800F21DDA /* userService.swift */; };
+		4660312E2D13629B00F21DDA /* GlobalComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4660312D2D13629B00F21DDA /* GlobalComponent.swift */; };
+		466031332D13665D00F21DDA /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466031322D13665D00F21DDA /* CoreDataManager.swift */; };
+		466031362D1367C200F21DDA /* MatrimonialAppModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 466031342D1367C200F21DDA /* MatrimonialAppModel.xcdatamodeld */; };
+		466031392D13693F00F21DDA /* UserEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466031372D13693F00F21DDA /* UserEntity+CoreDataClass.swift */; };
+		4660313A2D13693F00F21DDA /* UserEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466031382D13693F00F21DDA /* UserEntity+CoreDataProperties.swift */; };
+		4660313C2D136ABB00F21DDA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4660313B2D136ABB00F21DDA /* ViewModel.swift */; };
+		466031452D13C40900F21DDA /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466031442D13C40900F21DDA /* UserRepository.swift */; };
+		466031472D13C4EE00F21DDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466031462D13C4EE00F21DDA /* AppDelegate.swift */; };
+		466031492D13DE9700F21DDA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466031482D13DE9700F21DDA /* ProfileView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		466031042D135CE400F21DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 466030EB2D135CE200F21DDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 466030F22D135CE200F21DDA;
+			remoteInfo = MatrimonialApp;
+		};
+		4660310E2D135CE400F21DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 466030EB2D135CE200F21DDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 466030F22D135CE200F21DDA;
+			remoteInfo = MatrimonialApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		466030F32D135CE200F21DDA /* MatrimonialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatrimonialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		466030F62D135CE200F21DDA /* MatrimonialAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrimonialAppApp.swift; sourceTree = "<group>"; };
+		466030F82D135CE200F21DDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		466030FA2D135CE400F21DDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		466030FD2D135CE400F21DDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		466031032D135CE400F21DDA /* MatrimonialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatrimonialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		466031072D135CE400F21DDA /* MatrimonialAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrimonialAppTests.swift; sourceTree = "<group>"; };
+		4660310D2D135CE400F21DDA /* MatrimonialAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatrimonialAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		466031112D135CE400F21DDA /* MatrimonialAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrimonialAppUITests.swift; sourceTree = "<group>"; };
+		466031132D135CE400F21DDA /* MatrimonialAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrimonialAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		466031252D135F1800F21DDA /* WebClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebClient.swift; sourceTree = "<group>"; };
+		466031272D1360BB00F21DDA /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		466031292D1361E300F21DDA /* UserModelCTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModelCTO.swift; sourceTree = "<group>"; };
+		4660312B2D13624800F21DDA /* userService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userService.swift; sourceTree = "<group>"; };
+		4660312D2D13629B00F21DDA /* GlobalComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalComponent.swift; sourceTree = "<group>"; };
+		466031322D13665D00F21DDA /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		466031352D1367C200F21DDA /* MatrimonialAppModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MatrimonialAppModel.xcdatamodel; sourceTree = "<group>"; };
+		466031372D13693F00F21DDA /* UserEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		466031382D13693F00F21DDA /* UserEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4660313B2D136ABB00F21DDA /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		466031442D13C40900F21DDA /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		466031462D13C4EE00F21DDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		466031482D13DE9700F21DDA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		466030F02D135CE200F21DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466031002D135CE400F21DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4660310A2D135CE400F21DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		466030EA2D135CE200F21DDA = {
+			isa = PBXGroup;
+			children = (
+				466031372D13693F00F21DDA /* UserEntity+CoreDataClass.swift */,
+				466031382D13693F00F21DDA /* UserEntity+CoreDataProperties.swift */,
+				466030F52D135CE200F21DDA /* MatrimonialApp */,
+				466031062D135CE400F21DDA /* MatrimonialAppTests */,
+				466031102D135CE400F21DDA /* MatrimonialAppUITests */,
+				466030F42D135CE200F21DDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		466030F42D135CE200F21DDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				466030F32D135CE200F21DDA /* MatrimonialApp.app */,
+				466031032D135CE400F21DDA /* MatrimonialAppTests.xctest */,
+				4660310D2D135CE400F21DDA /* MatrimonialAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		466030F52D135CE200F21DDA /* MatrimonialApp */ = {
+			isa = PBXGroup;
+			children = (
+				4660312D2D13629B00F21DDA /* GlobalComponent.swift */,
+				466031462D13C4EE00F21DDA /* AppDelegate.swift */,
+				4660313D2D136AC200F21DDA /* viewModel */,
+				466031312D13664C00F21DDA /* database */,
+				466031242D135D3200F21DDA /* view */,
+				466031232D135D2500F21DDA /* model */,
+				466031222D135D1A00F21DDA /* repository */,
+				466031212D135D1000F21DDA /* client */,
+				466031202D135D0700F21DDA /* service */,
+				466030FA2D135CE400F21DDA /* Assets.xcassets */,
+				466030FC2D135CE400F21DDA /* Preview Content */,
+			);
+			path = MatrimonialApp;
+			sourceTree = "<group>";
+		};
+		466030FC2D135CE400F21DDA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				466030FD2D135CE400F21DDA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		466031062D135CE400F21DDA /* MatrimonialAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				466031072D135CE400F21DDA /* MatrimonialAppTests.swift */,
+			);
+			path = MatrimonialAppTests;
+			sourceTree = "<group>";
+		};
+		466031102D135CE400F21DDA /* MatrimonialAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				466031112D135CE400F21DDA /* MatrimonialAppUITests.swift */,
+				466031132D135CE400F21DDA /* MatrimonialAppUITestsLaunchTests.swift */,
+			);
+			path = MatrimonialAppUITests;
+			sourceTree = "<group>";
+		};
+		466031202D135D0700F21DDA /* service */ = {
+			isa = PBXGroup;
+			children = (
+				4660312B2D13624800F21DDA /* userService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		466031212D135D1000F21DDA /* client */ = {
+			isa = PBXGroup;
+			children = (
+				466031252D135F1800F21DDA /* WebClient.swift */,
+			);
+			path = client;
+			sourceTree = "<group>";
+		};
+		466031222D135D1A00F21DDA /* repository */ = {
+			isa = PBXGroup;
+			children = (
+				466031342D1367C200F21DDA /* MatrimonialAppModel.xcdatamodeld */,
+				466031442D13C40900F21DDA /* UserRepository.swift */,
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
+		466031232D135D2500F21DDA /* model */ = {
+			isa = PBXGroup;
+			children = (
+				466031272D1360BB00F21DDA /* UserModel.swift */,
+				466031292D1361E300F21DDA /* UserModelCTO.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		466031242D135D3200F21DDA /* view */ = {
+			isa = PBXGroup;
+			children = (
+				466030F62D135CE200F21DDA /* MatrimonialAppApp.swift */,
+				466030F82D135CE200F21DDA /* ContentView.swift */,
+				466031482D13DE9700F21DDA /* ProfileView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		466031312D13664C00F21DDA /* database */ = {
+			isa = PBXGroup;
+			children = (
+				466031322D13665D00F21DDA /* CoreDataManager.swift */,
+			);
+			path = database;
+			sourceTree = "<group>";
+		};
+		4660313D2D136AC200F21DDA /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4660313B2D136ABB00F21DDA /* ViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		466030F22D135CE200F21DDA /* MatrimonialApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466031172D135CE400F21DDA /* Build configuration list for PBXNativeTarget "MatrimonialApp" */;
+			buildPhases = (
+				466030EF2D135CE200F21DDA /* Sources */,
+				466030F02D135CE200F21DDA /* Frameworks */,
+				466030F12D135CE200F21DDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MatrimonialApp;
+			productName = MatrimonialApp;
+			productReference = 466030F32D135CE200F21DDA /* MatrimonialApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		466031022D135CE400F21DDA /* MatrimonialAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4660311A2D135CE400F21DDA /* Build configuration list for PBXNativeTarget "MatrimonialAppTests" */;
+			buildPhases = (
+				466030FF2D135CE400F21DDA /* Sources */,
+				466031002D135CE400F21DDA /* Frameworks */,
+				466031012D135CE400F21DDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				466031052D135CE400F21DDA /* PBXTargetDependency */,
+			);
+			name = MatrimonialAppTests;
+			productName = MatrimonialAppTests;
+			productReference = 466031032D135CE400F21DDA /* MatrimonialAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4660310C2D135CE400F21DDA /* MatrimonialAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4660311D2D135CE400F21DDA /* Build configuration list for PBXNativeTarget "MatrimonialAppUITests" */;
+			buildPhases = (
+				466031092D135CE400F21DDA /* Sources */,
+				4660310A2D135CE400F21DDA /* Frameworks */,
+				4660310B2D135CE400F21DDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4660310F2D135CE400F21DDA /* PBXTargetDependency */,
+			);
+			name = MatrimonialAppUITests;
+			productName = MatrimonialAppUITests;
+			productReference = 4660310D2D135CE400F21DDA /* MatrimonialAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		466030EB2D135CE200F21DDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					466030F22D135CE200F21DDA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					466031022D135CE400F21DDA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 466030F22D135CE200F21DDA;
+					};
+					4660310C2D135CE400F21DDA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 466030F22D135CE200F21DDA;
+					};
+				};
+			};
+			buildConfigurationList = 466030EE2D135CE200F21DDA /* Build configuration list for PBXProject "MatrimonialApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 466030EA2D135CE200F21DDA;
+			productRefGroup = 466030F42D135CE200F21DDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				466030F22D135CE200F21DDA /* MatrimonialApp */,
+				466031022D135CE400F21DDA /* MatrimonialAppTests */,
+				4660310C2D135CE400F21DDA /* MatrimonialAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		466030F12D135CE200F21DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466030FE2D135CE400F21DDA /* Preview Assets.xcassets in Resources */,
+				466030FB2D135CE400F21DDA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466031012D135CE400F21DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4660310B2D135CE400F21DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		466030EF2D135CE200F21DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466031452D13C40900F21DDA /* UserRepository.swift in Sources */,
+				4660312C2D13624800F21DDA /* userService.swift in Sources */,
+				4660313A2D13693F00F21DDA /* UserEntity+CoreDataProperties.swift in Sources */,
+				466030F92D135CE200F21DDA /* ContentView.swift in Sources */,
+				466031472D13C4EE00F21DDA /* AppDelegate.swift in Sources */,
+				466030F72D135CE200F21DDA /* MatrimonialAppApp.swift in Sources */,
+				4660312A2D1361E300F21DDA /* UserModelCTO.swift in Sources */,
+				466031492D13DE9700F21DDA /* ProfileView.swift in Sources */,
+				4660312E2D13629B00F21DDA /* GlobalComponent.swift in Sources */,
+				4660313C2D136ABB00F21DDA /* ViewModel.swift in Sources */,
+				466031392D13693F00F21DDA /* UserEntity+CoreDataClass.swift in Sources */,
+				466031282D1360BB00F21DDA /* UserModel.swift in Sources */,
+				466031332D13665D00F21DDA /* CoreDataManager.swift in Sources */,
+				466031362D1367C200F21DDA /* MatrimonialAppModel.xcdatamodeld in Sources */,
+				466031262D135F1800F21DDA /* WebClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466030FF2D135CE400F21DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466031082D135CE400F21DDA /* MatrimonialAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466031092D135CE400F21DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466031142D135CE400F21DDA /* MatrimonialAppUITestsLaunchTests.swift in Sources */,
+				466031122D135CE400F21DDA /* MatrimonialAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		466031052D135CE400F21DDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 466030F22D135CE200F21DDA /* MatrimonialApp */;
+			targetProxy = 466031042D135CE400F21DDA /* PBXContainerItemProxy */;
+		};
+		4660310F2D135CE400F21DDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 466030F22D135CE200F21DDA /* MatrimonialApp */;
+			targetProxy = 4660310E2D135CE400F21DDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		466031152D135CE400F21DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		466031162D135CE400F21DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		466031182D135CE400F21DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MatrimonialApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4YV58YQ69M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nishtha.MatrimonialApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		466031192D135CE400F21DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MatrimonialApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4YV58YQ69M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nishtha.MatrimonialApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4660311B2D135CE400F21DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4YV58YQ69M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nishtha.MatrimonialAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatrimonialApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MatrimonialApp";
+			};
+			name = Debug;
+		};
+		4660311C2D135CE400F21DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4YV58YQ69M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nishtha.MatrimonialAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatrimonialApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MatrimonialApp";
+			};
+			name = Release;
+		};
+		4660311E2D135CE400F21DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4YV58YQ69M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nishtha.MatrimonialAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MatrimonialApp;
+			};
+			name = Debug;
+		};
+		4660311F2D135CE400F21DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4YV58YQ69M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nishtha.MatrimonialAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MatrimonialApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		466030EE2D135CE200F21DDA /* Build configuration list for PBXProject "MatrimonialApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466031152D135CE400F21DDA /* Debug */,
+				466031162D135CE400F21DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		466031172D135CE400F21DDA /* Build configuration list for PBXNativeTarget "MatrimonialApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466031182D135CE400F21DDA /* Debug */,
+				466031192D135CE400F21DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4660311A2D135CE400F21DDA /* Build configuration list for PBXNativeTarget "MatrimonialAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4660311B2D135CE400F21DDA /* Debug */,
+				4660311C2D135CE400F21DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4660311D2D135CE400F21DDA /* Build configuration list for PBXNativeTarget "MatrimonialAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4660311E2D135CE400F21DDA /* Debug */,
+				4660311F2D135CE400F21DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		466031342D1367C200F21DDA /* MatrimonialAppModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				466031352D1367C200F21DDA /* MatrimonialAppModel.xcdatamodel */,
+			);
+			currentVersion = 466031352D1367C200F21DDA /* MatrimonialAppModel.xcdatamodel */;
+			path = MatrimonialAppModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 466030EB2D135CE200F21DDA /* Project object */;
+}
